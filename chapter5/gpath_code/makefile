@@ -3,6 +3,8 @@
 .PHONY:all clean
 
 vpath %.c ../wild_code/
+vpath %.o ../wild_code/
+#GPATH=../wild_code
 
 depen=main.o foo1.o foo2.o
 aim=main

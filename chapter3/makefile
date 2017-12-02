@@ -9,3 +9,4 @@ all:
 	@echo $(vari_a)
 	@echo $(vari_b)
 
+include inc_a

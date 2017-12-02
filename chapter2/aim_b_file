@@ -1,0 +1,4 @@
+.PHONY:aim_b
+
+aim_b:
+	@echo "now we exe aim_b"

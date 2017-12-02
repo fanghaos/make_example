@@ -3,5 +3,4 @@
 .PHONY:all
 
 all:
-	@echo "cmd1 process id is :" $$$$
-	@echo "cmd2 process id is :" $$$$
+	@echo "cmd1 process id is :" $$$$; echo "cmd2 process id is :" $$$$

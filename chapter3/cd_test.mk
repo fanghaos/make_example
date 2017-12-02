@@ -3,6 +3,4 @@
 .PHONY:all
 
 all:
-	@pwd
-	cd ..
-	@pwd
+	@pwd; cd ..; pwd

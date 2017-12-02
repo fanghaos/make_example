@@ -4,12 +4,14 @@
 
 all:aim_1
 
-aim_%:test_*
+#aim_%:test_*
+aim_%:test_1 test_2 test_3 test_4 
 	@echo "aim : " $@ "depen : " $^
-	@cd ~ ; echo "print user home path:";pwd
+	@cd ~ ; echo "print user home path:";pwd;
 	@ls *
 
 test_%:
+	@echo "test_ % exe " $@
 	touch $@
 
 test_1:test_4
