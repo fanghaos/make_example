@@ -20,6 +20,7 @@ c1 += $(c2)
 c2 += $(c1)
 
 d1 ?= dd1
+d1 ?= ddxxx
 d2 = dd2
 d2 ?= dd3
 

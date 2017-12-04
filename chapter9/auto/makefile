@@ -4,7 +4,9 @@
 
 PRE:=pre_a pre_b pre_a pre_c
 
-all:$(PRE) lib -ladd
+#all:$(PRE) lib -ladd
+all:$(PRE) lib
+#all:-ladd
 	@echo "$$""@:"$@
 	@echo "$$""^:"$^
 	@echo "$$""+:"$+

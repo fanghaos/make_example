@@ -9,5 +9,6 @@ all:$(subdir)
 
 $(subdir):
 	@echo "MAKEFLAGS before subdir is : " $(MAKEFLAGS)
+	@echo $(MAKE)
 	cd $@;$(MAKE)
 
